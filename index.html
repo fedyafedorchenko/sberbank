@@ -991,7 +991,7 @@
           note.textContent = 'Укажите корректный email.';
           return;
         }
-        if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL.includes('PASTE_YOUR')) {
+        if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL.includes('https://script.google.com/macros/s/AKfycbxUaR-yV1b1qRQu1zxWqyxrZNs4l5Uvor5Vaex7uzFf-aDF4OlggU3LQzz9HSwh7a1R/exec')) {
           note.classList.add('error');
           note.textContent = 'Форма готова. Перед запуском вставьте URL Google Apps Script в переменную GOOGLE_SCRIPT_URL.';
           return;
